@@ -76,7 +76,7 @@ public class Process extends UntypedAbstractActor {
     // Messages types
 
     /**
-     * the list of actors
+     * receive the list of actors
      */
     public static class ActorListMessage{
         ArrayList<ActorRef> data;
@@ -86,17 +86,25 @@ public class Process extends UntypedAbstractActor {
     }
 
     /**
-     * order the process to switch its state to ERROR_PRONE
+     * Order the process to switch its state to ERROR_PRONE
+     * an actor receiving this message will become faulty
      */
     public static class CrashMessage {
         public CrashMessage(){}
     }
 
     /**
-     * initiate the proposal send
+     * pick a value to propose and initiate the first proposal
      */
     public static class LaunchMessage {
         public LaunchMessage(){}
+    }
+
+    /**
+     * initiates a new proposal with the same value
+     */
+    public static class ProposeMessage {
+        public ProposeMessage() {}
     }
 
     /**
@@ -105,6 +113,8 @@ public class Process extends UntypedAbstractActor {
     public static class HoldMessage {
         public HoldMessage(){}
     }
+
+    // Paxos protocol messages
 
     /**
      * send a message containing the ballot number to prepare the proposal
@@ -117,8 +127,10 @@ public class Process extends UntypedAbstractActor {
     }
 
     /**
-     * response the the prepare proposal indicating that the process is already engaged with
-     * a process with higher ballot number
+     * Response to decline the prepare and impose proposals indicating that the process is already engaged with
+     * a process with higher ballot number.
+     * Upon receiving this message the process will propose again after a little delay
+     * to give a chance to other processes to have their values accepted
      */
     public static class AbortMessage {
         public int ballot;
@@ -129,6 +141,7 @@ public class Process extends UntypedAbstractActor {
 
     /**
      * engagement from the process not to promise to the processes with smaller ballot number
+     * upon receiving promises from more than half the processes, the proposer proceeds to the impose phase
      */
     public static class PromiseMessage {
         public int ballot;
@@ -140,6 +153,11 @@ public class Process extends UntypedAbstractActor {
         }
     }
 
+    /**
+     * send the value to be accepted in addition to the ballot number
+     * the value corresponds to the one associated to the highest ballot which reached the impose phase
+     * if no such number exists, the value of the process is proposed
+     */
     public static class ImposeMessage {
         public int ballot;
         public int proposal;
@@ -150,6 +168,10 @@ public class Process extends UntypedAbstractActor {
         }
     }
 
+    /**
+     * acknowledge the reception of the value without conflicting counter proposal
+     * Upon receiving acknowledgements from enough processes, the value is decided
+     */
     public static class AckMessage {
         public int ballot;
 
@@ -158,6 +180,9 @@ public class Process extends UntypedAbstractActor {
         }
     }
 
+    /**
+     * Tell the processes that a value was accepted
+     */
     public static class DecideMessage {
         public int value;
 
@@ -166,9 +191,6 @@ public class Process extends UntypedAbstractActor {
         }
     }
 
-    public static class ProposeMessage {
-        public ProposeMessage() {}
-    }
     // props
     public static Props createActor(int ballot) {
         return Props.create(Process.class, () -> new Process(ballot));
