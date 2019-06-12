@@ -1,0 +1,245 @@
+[INFO] [06/12/2019 09:19:09.314] [system-akka.actor.default-dispatcher-2] [akka://system/user/P0] received list of actors
+[INFO] [06/12/2019 09:19:09.316] [system-akka.actor.default-dispatcher-3] [akka://system/user/P1] received list of actors
+[INFO] [06/12/2019 09:19:09.316] [system-akka.actor.default-dispatcher-3] [akka://system/user/P1] state changed to ERROR_PRONE
+[INFO] [06/12/2019 09:19:09.316] [system-akka.actor.default-dispatcher-3] [akka://system/user/P1] launched with value 0
+[INFO] [06/12/2019 09:19:09.316] [system-akka.actor.default-dispatcher-3] [akka://system/user/P1] Start proposal with ballot number 1
+[INFO] [06/12/2019 09:19:09.317] [system-akka.actor.default-dispatcher-3] [akka://system/user/P1] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.320] [system-akka.actor.default-dispatcher-2] [akka://system/user/P0] state changed to ERROR_PRONE
+[INFO] [06/12/2019 09:19:09.320] [system-akka.actor.default-dispatcher-2] [akka://system/user/P0] launched with value 0
+[INFO] [06/12/2019 09:19:09.320] [system-akka.actor.default-dispatcher-2] [akka://system/user/P0] Start proposal with ballot number 0
+[INFO] [06/12/2019 09:19:09.320] [system-akka.actor.default-dispatcher-6] [akka://system/user/P1] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.329] [system-akka.actor.default-dispatcher-2] [akka://system/user/P0] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.330] [system-akka.actor.default-dispatcher-5] [akka://system/user/P0] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.330] [system-akka.actor.default-dispatcher-5] [akka://system/user/P0] proposal refused with ballot 0
+[INFO] [06/12/2019 09:19:09.330] [system-akka.actor.default-dispatcher-2] [akka://system/user/P2] received list of actors
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P2] launched with value 0
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] received list of actors
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P2] Start proposal with ballot number 2
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] launched with value 1
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] Start proposal with ballot number 7
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P2] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P2] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P2] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] received list of actors
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] launched with value 1
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] Start proposal with ballot number 8
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] received list of actors
+[INFO] [06/12/2019 09:19:09.331] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] state changed to ERROR_PRONE
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] launched with value 0
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] Start proposal with ballot number 9
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] received list of actors
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-13] [akka://system/user/P1] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] state changed to ERROR_PRONE
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] launched with value 0
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-13] [akka://system/user/P1] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] Start proposal with ballot number 6
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-13] [akka://system/user/P1] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] received list of actors
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] launched with value 0
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] Start proposal with ballot number 4
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.332] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-4] [akka://system/user/P3] received list of actors
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-2] [akka://system/user/P7] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-4] [akka://system/user/P3] launched with value 0
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-4] [akka://system/user/P3] Start proposal with ballot number 3
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-2] [akka://system/user/P7] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.334] [system-akka.actor.default-dispatcher-4] [akka://system/user/P3] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.334] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.334] [system-akka.actor.default-dispatcher-4] [akka://system/user/P3] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.334] [system-akka.actor.default-dispatcher-4] [akka://system/user/P3] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.334] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-4] [akka://system/user/P7] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-4] [akka://system/user/P7] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.333] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-12] [akka://system/user/P8] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] enough promises received
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-12] [akka://system/user/P0] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-6] [akka://system/user/P7] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-6] [akka://system/user/P7] enough promises received
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.336] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] enough promises received
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] received list of actors
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] launched with value 1
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] proceed to impose with value 1
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] Start proposal with ballot number 5
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] proposal refused with ballot 4
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] promising to ballot 1
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] abort promise for ballot 0
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] proposal refused with ballot 8
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-12] [akka://system/user/P4] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.338] [system-akka.actor.default-dispatcher-8] [akka://system/user/P0] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-5] [akka://system/user/P6] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-8] [akka://system/user/P0] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-12] [akka://system/user/P6] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-12] [akka://system/user/P6] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-5] [akka://system/user/P1] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-12] [akka://system/user/P6] proposal refused with ballot 6
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-5] [akka://system/user/P1] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-5] [akka://system/user/P1] enough promises received
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-5] [akka://system/user/P1] proceed to impose with value 0
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-8] [akka://system/user/P6] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.335] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] promising to ballot 2
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-8] [akka://system/user/P8] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-10] [akka://system/user/P4] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.339] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] promising to ballot 7
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-7] [akka://system/user/P9] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-10] [akka://system/user/P9] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-5] [akka://system/user/P1] state changed to SILENT
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] promising to ballot 8
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-5] [akka://system/user/P1] state changed to SILENT
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] abort promise for ballot 6
+[INFO] [06/12/2019 09:19:09.340] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-8] [akka://system/user/P3] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-10] [akka://system/user/P9] abort promise for ballot 3
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-8] [akka://system/user/P3] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] proceed to impose with value 0
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-8] [akka://system/user/P6] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-6] [akka://system/user/P7] proceed to impose with value 1
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] proposal refused with ballot 5
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-2] [akka://system/user/P6] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-8] [akka://system/user/P3] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-6] [akka://system/user/P7] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-8] [akka://system/user/P3] proposal refused with ballot 3
+[INFO] [06/12/2019 09:19:09.341] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-2] [akka://system/user/P4] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-6] [akka://system/user/P7] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-8] [akka://system/user/P3] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-2] [akka://system/user/P7] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-2] [akka://system/user/P7] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-6] [akka://system/user/P7] proposal refused with ballot 7
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-5] [akka://system/user/P8] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.342] [system-akka.actor.default-dispatcher-5] [akka://system/user/P3] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-5] [akka://system/user/P7] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] promising to ballot 9
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] abort promise for ballot 4
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-5] [akka://system/user/P2] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-5] [akka://system/user/P2] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-5] [akka://system/user/P2] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-7] [akka://system/user/P5] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.343] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.344] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] proposal refused with ballot 2
+[INFO] [06/12/2019 09:19:09.344] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] abort impose for ballot 8
+[INFO] [06/12/2019 09:19:09.344] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] abort promise for ballot 5
+[INFO] [06/12/2019 09:19:09.344] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] enough promises received
+[INFO] [06/12/2019 09:19:09.347] [system-akka.actor.default-dispatcher-13] [akka://system/user/P0] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.347] [system-akka.actor.default-dispatcher-13] [akka://system/user/P0] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.347] [system-akka.actor.default-dispatcher-13] [akka://system/user/P0] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.347] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] proceed to impose with value 0
+[INFO] [06/12/2019 09:19:09.350] [system-akka.actor.default-dispatcher-11] [akka://system/user/P6] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.351] [system-akka.actor.default-dispatcher-11] [akka://system/user/P0] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.351] [system-akka.actor.default-dispatcher-11] [akka://system/user/P5] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.351] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.351] [system-akka.actor.default-dispatcher-11] [akka://system/user/P8] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-11] [akka://system/user/P4] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-4] [akka://system/user/P0] Start proposal with ballot number 10
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-11] [akka://system/user/P3] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-11] [akka://system/user/P6] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-11] [akka://system/user/P2] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-8] [akka://system/user/P8] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-11] [akka://system/user/P4] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.353] [system-akka.actor.default-dispatcher-8] [akka://system/user/P3] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.353] [system-akka.actor.default-dispatcher-11] [akka://system/user/P7] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.352] [system-akka.actor.default-dispatcher-4] [akka://system/user/P0] promising to ballot 10
+[INFO] [06/12/2019 09:19:09.353] [system-akka.actor.default-dispatcher-9] [akka://system/user/P9] abort impose for ballot 1
+[INFO] [06/12/2019 09:19:09.353] [system-akka.actor.default-dispatcher-4] [akka://system/user/P0] enough promises received
+[INFO] [06/12/2019 09:19:09.353] [system-akka.actor.default-dispatcher-4] [akka://system/user/P0] proceed to impose with value 0
+[INFO] [06/12/2019 09:19:09.353] [system-akka.actor.default-dispatcher-9] [akka://system/user/P9] abort impose for ballot 7
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-9] [akka://system/user/P6] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-9] [akka://system/user/P9] abort impose for ballot 2
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-4] [akka://system/user/P5] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-4] [akka://system/user/P2] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-9] [akka://system/user/P9] commit to decision 0 for ballot 9
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-4] [akka://system/user/P8] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-9] [akka://system/user/P4] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-9] [akka://system/user/P3] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-4] [akka://system/user/P9] value 0 decided
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-9] [akka://system/user/P0] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.354] [system-akka.actor.default-dispatcher-6] [akka://system/user/P6] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-11] [akka://system/user/P5] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-6] [akka://system/user/P2] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-11] [akka://system/user/P8] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-6] [akka://system/user/P4] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-11] [akka://system/user/P3] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-9] [akka://system/user/P0] value 0 decided
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-8] [akka://system/user/P6] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-8] [akka://system/user/P5] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-8] [akka://system/user/P2] get the decision of 0
+[INFO] [06/12/2019 09:19:09.355] [system-akka.actor.default-dispatcher-2] [akka://system/user/P8] get the decision of 0
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-3] [akka://system/user/P4] get the decision of 0
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-2] [akka://system/user/P3] get the decision of 0
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-9] [akka://system/user/P0] get the decision of 0
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-9] [akka://system/user/P0] get the decision of 0
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-12] [akka://system/user/P7] abort impose for ballot 9
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-12] [akka://system/user/P7] commit to decision 0 for ballot 10
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-12] [akka://system/user/P7] get the decision of 0
+[INFO] [06/12/2019 09:19:09.356] [system-akka.actor.default-dispatcher-12] [akka://system/user/P7] get the decision of 0
+[INFO] [06/12/2019 09:19:09.358] [system-akka.actor.default-dispatcher-4] [akka://system/user/P9] abort promise for ballot 10
+[INFO] [06/12/2019 09:19:09.358] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] abort impose for ballot 10
+[INFO] [06/12/2019 09:19:09.358] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] get the decision of 0
+[INFO] [06/12/2019 09:19:09.358] [system-akka.actor.default-dispatcher-12] [akka://system/user/P9] get the decision of 0
+[INFO] [06/12/2019 09:19:11.315] [system-akka.actor.default-dispatcher-6] [akka://system/user/P3] stopped
+[INFO] [06/12/2019 09:19:11.315] [system-akka.actor.default-dispatcher-4] [akka://system/user/P4] stopped
+[INFO] [06/12/2019 09:19:11.315] [system-akka.actor.default-dispatcher-9] [akka://system/user/P2] stopped
+[INFO] [06/12/2019 09:19:11.315] [system-akka.actor.default-dispatcher-7] [akka://system/user/P7] stopped
+[INFO] [06/12/2019 09:19:11.315] [system-akka.actor.default-dispatcher-5] [akka://system/user/P0] stopped
+[INFO] [06/12/2019 09:19:11.317] [system-akka.actor.default-dispatcher-8] [akka://system/user/P9] stopped
+[INFO] [06/12/2019 09:19:11.318] [system-akka.actor.default-dispatcher-12] [akka://system/user/P6] stopped
+[INFO] [06/12/2019 09:19:11.318] [system-akka.actor.default-dispatcher-2] [akka://system/user/P5] stopped
