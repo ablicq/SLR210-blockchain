@@ -2,7 +2,7 @@
 title: "SLR210 project: report"
 author:
 - Aurélien Blicq
-- Louis Penet-de-Monternot
+- Louis Penet de Monterno
 geometry: margin=2cm
 fontsize: 12pt
 ---
@@ -366,6 +366,49 @@ public class Process extends UntypedAbstractActor {
 \newpage
 
 # Proof of correctness
+
+## Validity
+
+_if a value is decided, it was proposed by at least one process :_
+
+trivially true
+
+## Aggreement
+
+_no two process can decide different values :_
+
+Let's assume that two process make different decision. Then we can deduce that :
+
+1. These two precesses have received a __DECIDE__ message, containing two different values.
+2. Let p and q be respectively the senders of these messages. Then p and q have received a majority of acknoledgments (i.e. __ACK__ messages) in response of attempts of imposing ballots.
+Without loss of generality, let's assume that q has the highest ballot number.
+3. If q tried to impose a ballot, it means that it has received __GATHER__ messages from a quorum. This quorum intersects with the quorum with received and acknoledged the __IMPOSE__ messages from p.
+Let r be a process in the intersection.
+4. There are two possibilities :
+	- Either r received first the __READ__ request from q, then the __IMPOSE__ request from p. Then, when r received __READ__ request, it learned q's ballot number which is higher than p's one.
+	Then, instead of acknoledging p's __IMPOSE__ request, r would have aborted.
+	- Or r received first the __IMPOSE__ request from p, then the __READ__ request from q.
+	In that case, while responding to q, r would have learnt it that p has already imposed a value. Then instead of imposing its own value, q would have imposed a more recent one.
+	This case is also impossible.
+
+## Obstruction-free termination
+
+_If a process proposes, it eventually decides or aborts_.
+
+When a process p proposes :
+
+1. It sends __READ__ request to all.
+2. Since the channels are reliable, every process eventually receive and respond.
+3. p eventually receive either responses from a quorum, or aborts.
+4. In the first case, it tries to impose a value.
+5. It sends an __IMPOSE__ request to everybody, which eentually respond.
+6. Eventually, p aborts, or receive acknoledgment from a quorum, then decides.
+
+_If a correct process decides, no process abort indefinitely often._
+
+If a correct process decides, it sends a __DECIDE__ message to everybody. Other processes don't have time to abort indefinitely often.
+
+_If there is a time after which a single correct process p proposes a value sufficiently many times, p eventually decides._
 
 # Performance analysis
 
