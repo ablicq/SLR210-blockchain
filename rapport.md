@@ -368,3 +368,17 @@ public class Process extends UntypedAbstractActor {
 # Proof of correctness
 
 # Performance analysis
+
+In order to analyse the performance, we run the program with different parameters and construct the following graph:
+
+![Performance of the implementation](graph.png)
+
+On the x axis, is represented the time before the simulated leader election (taking the values 0.5s, 1s, 1.5s, and 2s).
+
+On the y axis, is the average on five runs of the time passed before a value was decided.
+
+The three curves are the cases with 3 processes (1 faulty) in blue, 10 processes (4 faulty) in yellow, and 100 processes (49 faulty) in green.
+
+What can be observed is first that the more actors there is, the longer it takes before reaching agreement. And that the time taken seems to depend linearly on the number of processes. This is due to the time necessary for the messages broadcasting.
+
+Secondly, we can see that the time taken before agreement hardly depends on the time before the simulated leader election as it occurs generally before. This is due to the little delay added before re-proposing, giving the other proposals a chance to be accepted.

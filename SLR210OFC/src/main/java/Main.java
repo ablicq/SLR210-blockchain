@@ -39,12 +39,12 @@ public class Main {
             }
         }
 
-        Thread.sleep(1000);
-
-        for(int i=0; i<nProcesses; i++){
-            system.stop(actors.get(i));
-        }
-
-        System.exit(0);
+//        Thread.sleep(1000);
+//
+//        for(int i=0; i<nProcesses; i++){
+//            system.stop(actors.get(i));
+//        }
+//
+//        System.exit(0);
     }
 }

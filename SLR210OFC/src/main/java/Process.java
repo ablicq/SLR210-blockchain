@@ -289,7 +289,7 @@ public class Process extends UntypedAbstractActor {
             AbortMessage m = (AbortMessage) message;
             if(m.ballot == ballot) {
                 log.info("proposal refused with ballot {}", ballot);
-                context().system().scheduler().scheduleOnce(Duration.create(10, TimeUnit.MILLISECONDS),
+                context().system().scheduler().scheduleOnce(Duration.create(5, TimeUnit.MILLISECONDS),
                         getSelf(), new ProposeMessage(), context().system().dispatcher(), getSelf());
             }
         } else if (message instanceof ProposeMessage) {
