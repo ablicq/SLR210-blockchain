@@ -4,7 +4,6 @@ author:
 - Aurélien Blicq
 - Louis Penet de Monterno
 geometry: margin=2cm
-fontsize: 12pt
 ---
 
 # High-level description
@@ -38,13 +37,13 @@ This protocol has the advantage of still being able to produce results even thou
 
 ## Validity
 
-_if a value is decided, it was proposed by at least one process :_
+__if a value is decided, it was proposed by at least one process :__
 
 trivially true
 
 ## Aggreement
 
-_no two process can decide different values :_
+__no two process can decide different values :__
 
 Let's assume that two process make different decision. Then we can deduce that :
 
@@ -62,7 +61,7 @@ Let r be a process in the intersection.
 
 ## Obstruction-free termination
 
-_If a process proposes, it eventually decides or aborts_.
+__If a process proposes, it eventually decides or aborts.__
 
 When a process p proposes :
 
@@ -73,10 +72,18 @@ When a process p proposes :
 5. It sends an __IMPOSE__ request to everybody, which eentually respond.
 6. Eventually, p aborts, or receive acknoledgment from a quorum, then decides.
 
-_If a correct process decides, no process abort indefinitely often._
+__If a correct process decides, no process abort indefinitely often.__
 
-If a correct process decides, it sends a __DECIDE__ message to everybody. Other processes don't have time to abort indefinitely often.
+If a correct process decides, no other process will decide an other value later (cf previous section).
+Then no process can try to impose a ballot with higher ballot number than the accepted one. If it would be the case, this new proposal would be decided.
+Thus, the highest value __imposeballot__ kept in the system is the value previously decided. Then each time a process tries to read the system, the already decided ballot will be kept
+as the highest knwn ballot, and will eventually be decided again.
+No process can abort indefinitely often.
 
-_If there is a time after which a single correct process p proposes a value sufficiently many times, p eventually decides._
+__If there is a time after which a single correct process p proposes a value sufficiently many times, p eventually decides.__
+
+The algorith aborts each time a __READ__ or __IMPOSE__ request is received, but a higher ballot number is known.
+In the case where all process stop proposing but one, the ballot number of this process will be increased each time a ballot is proposed. At some point, the ballot number of the proposals 
+will be greater than any ballot number previously known by the system. Then the process can no longer abort. It will eventually decide.
 
 # Performance analysis
