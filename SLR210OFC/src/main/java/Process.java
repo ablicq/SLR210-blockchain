@@ -271,7 +271,8 @@ public class Process extends UntypedAbstractActor {
                 sender.tell(new AckMessage(m.ballot), getSelf());
             }
         } else if (message instanceof AckMessage) {
-            nbAck += 1;
+            AckMessage m = (AckMessage) message;
+            if (m.ballot == ballot) nbAck += 1;
             if (nbAck >= actors.size()/2 && phase == Phase.IMPOSE){
                 log.info("value {} decided", proposedValue);
                 phase = Phase.DECIDE;
